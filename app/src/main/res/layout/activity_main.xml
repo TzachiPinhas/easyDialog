@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Alert Dialog"
+        android:layout_marginTop="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Confirmation Dialog"
+        android:layout_marginTop="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/input_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Input Dialog"
+        android:layout_marginTop="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/list_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show List Dialog"
+        android:layout_marginTop="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/multiChoice_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Multi-Choice Dialog"
+        android:layout_marginTop="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/datePicker_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Date Picker Dialog"
+        android:layout_marginTop="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/timePicker_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Time Picker Dialog"
+        android:layout_marginTop="8dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/customProfile_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Custom Profile Dialog"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
